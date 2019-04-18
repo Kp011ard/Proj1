@@ -6,10 +6,7 @@ int main()
    int c1;
     int c2;
     int c3;
-    int a;
-    int b;
-    int c;
-    int d;
+
     printf("Choose a cihper: \n1 for Rotation Cihper\n2 for Subsition Cihper\n");
     scanf("%d", &c1);
 
@@ -30,6 +27,6 @@ if(c2 == 1) {
  if(c3 == 1) {
 
  } 
- 
-    
-    return 0;
+     return 0;
+}
+
