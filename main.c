@@ -1,32 +1,14 @@
 #include <stdio.h>
-
-int main() 
-
+#include <stdlib.h> // For exit() function
+int main()
 {
-   int c1;
-    int c2;
-    int c3;
-
-    printf("Choose a cihper: \n1 for Rotation Cihper\n2 for Subsition Cihper\n");
-    scanf("%d", &c1);
-
-        switch(c1){
-        case 1: c2=1;
-        break;
-        case 2: c2=2;
-        break;
-        default: printf("This is not an option\n");
-         }
-    printf("To chose Encryption please select 1, to chose Decryption please select 2\n");
-if(c2 == 1) {
-     c3=1;
-    }else if(c2 == 2) { 
-    c3=2;
+int a;
+scanf("%d", &a);
+switch(a) {
+    case 1: printf("Rotation Encryption selected"); break;
+    case 2: printf("Rotation Decryption selected"); break;
+    case 3: printf("Subsitution Encryption selected"); break;
+    case 4: printf("Subsitution Decryption selected"); break;
+    default: printf("Program quiting"); exit (0);
 }
-
- if(c3 == 1) {
-
- } 
-     return 0;
 }
-
