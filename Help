@@ -1,6 +1,6 @@
 Welcome to the 2.0 version of C3327923's Encryption and Decryption
 code. To use said code, you first must open the input file. There 
-on the first lineyou must enter a number to chose which option you 
+on the first line you must enter a number to chose which option you 
 want to run. The choices are:
 1 for Rotation Encryption
 2 for Rotation Decryption
@@ -8,9 +8,11 @@ want to run. The choices are:
 4 for Subsation Decryption
 Anything else will quit the program.
 After you will have to enter a message to be encrypted or decrypted
-on the next line. Finally, you must enter a key for the program, (if 
-no key is used enter 0). The code will either produce some possible
-decryption outcomes or an encrypted message in the terminal, and in
-file Endgame.
+on the next line.*IMPORTANT: This program can only read one sentance
+at a time. Any message must end with a fullstop (or a /0) AND NO 
+SPACES are allowed, instead use _. Finally, you must enter a key for
+the program. The code will either produce some possible decryption 
+outcomes or an encrypted message in the terminal, and in file 
+Endgame.
 Have fun using it.
 -C3327923
